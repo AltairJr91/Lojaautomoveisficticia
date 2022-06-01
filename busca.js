@@ -1,6 +1,6 @@
 
 
-
+// funçao de busca na barra de tarefas //
 var buscaCarro = document.querySelector(".pesquisaveiculo");
 
 buscaCarro.addEventListener("input",function(){
@@ -30,7 +30,7 @@ buscaCarro.addEventListener("input",function(){
 
 });
 
-
+//----------------------------------------------------------//
 
 
 
