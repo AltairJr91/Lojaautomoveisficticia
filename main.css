@@ -109,6 +109,12 @@ form h1{
 }
 /*-----------------------*/
 /*lista de carros */
+thead{
+    position: absolute;
+    width: 100%;
+    margin: 10px auto;
+    display: inline-table;
+}
 
 #listacarros{
     padding: 10px;
@@ -116,6 +122,12 @@ form h1{
     width: 100%;
     display: inline-block;
 }
+.titulocarros{
+    font-size: 28px;
+    border-top: 3px solid black;
+    position: relative;
+}
+
 tbody{
     display: inline-flex;
     
@@ -123,6 +135,7 @@ tbody{
 .listagemauto{
     max-width: 33%;
     margin-left: 15%;
+    margin-top: 70px;
 
 }
 .veiculos{ 
@@ -232,4 +245,9 @@ tbody{
     right: 4%;
     margin: 5px;
     margin-top: 12px;
+}
+/*------------------------------------*/
+
+.invisivel{
+    display: none;
 }
